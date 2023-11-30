@@ -158,6 +158,9 @@ kubectl apply -f frontend-service.yaml
 Finally create the final load balancer to allow internet traffic:
 ```
 kubectl apply -f full_stack_lb.yaml
+
+get the load balancer dns link
+kubectl get ingress
 ```
 
 
